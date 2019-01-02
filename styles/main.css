@@ -213,7 +213,7 @@ h5 {
 .landing img {
   display: block;
   margin: 10px auto;
-  width: 100%;
+  width: 80%;
 }
 
 .landing h1 {
@@ -221,7 +221,7 @@ h5 {
   color:rgb(205,130,50);
 }
 .landing h3 {
-  color:rgb(103,111,88);
+  color:rgb(205,130,50);
   text-align: right;
   position: relative;
   top: -37px;
@@ -486,7 +486,9 @@ h5 {
   min-width:700px;
   margin: 0 auto;
   padding:0;
+} 
 }
-  
-  
+
+.inhalt-aerzte, .inhalt-vertrag, .inhalt-sozialversicherung,.inhalt-IngenieurItler,.inhalt-kurzeEinfuehrung,.inhalt-pflegekraefte, .inhalt-deKontakt, .inhalt-hanKontakt,.inhalt-BildungssystemDual,.inhalt-jederLerntDeutsch, .inhalt-Bildungssystem, .inhalt-impressum, .inhalt-credits img{
+  width: 700px;
 }
