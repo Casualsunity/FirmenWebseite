@@ -42,6 +42,7 @@
         
         <div class="inhalt-sozialversicherung">
           <img src="../images/pics/sozialversicherungsausweis.png" alt="sozialversicherungsausweis">
+          <div id="zh-convert" class="zh-convert" data-zh="tw">简体</div><script>var zhconvert = document.getElementById("zh-convert");zhconvert.onclick = function(){if (zhconvert.dataset.zh == "tw"){TongWen.trans2Simp(document);zhconvert.dataset.zh = "cn";setTimeout(function() {zhconvert.textContent = "繁體";}, 500);}else{TongWen.trans2Trad(document);zhconvert.dataset.zh = "tw";setTimeout(function() {zhconvert.textContent = "简体";}, 500);}}</script>
           <h1>德國基本社會保障</h1>
           <p>德國具有完善的社會保障制度。如果您在德國工作，自然具有得到社會保險的資格，您通常是以下五項法定保險的成員:</p>
           <ul>
@@ -92,6 +93,12 @@
         <p>Alle Rechte vorbehalten</p>
       </div>
     </footer>
+    <script language="JavaScript" src="../skripte/tongwen_core.js"></script>
+    <script language="JavaScript" src="../skripte/tongwen_table_s2t.js"></script>
+    <script language="JavaScript" src="../skripte//tongwen_table_t2s.js"></script>
+    <script language="JavaScript" src="../skripte/tongwen_table_ps2t.js"></script>
+    <script language="JavaScript" src="../skripte//tongwen_table_pt2s.js"></script>
+    <script>var zhconvert = document.getElementById("zh-convert");zhconvert.onlick = function () {if (zhconvert.dataset.zh == "tw") {TongWen.trans2Simp(document);zhconvert.dataset.zh ="cn";setTimeout(function() {zhconvert.textContent ="繁";},500);}else {TongWen.trans2Trad(document);zhconvert.dataset.zh = "tw";setTimeout(function() {zhconvert.textContent ="简";},500);}}</script>
     
 </body>
 </html>

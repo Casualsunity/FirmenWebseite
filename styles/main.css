@@ -136,7 +136,6 @@ header .logo img{
 ---------------------------------------------------------------------*/
 
 .main-navigation ul {
-  padding-left: 0;
 }
 .main-navigation li {
   list-style: none;
@@ -212,11 +211,12 @@ header .logo img{
                               LANDING STYLES
 ---------------------------------------------------------------------*/
 
-.landing img {
+.landing a {
   display: block;
-  margin: 10px auto;
-  width: 80%;
+  margin: 0 auto;
+  width: 100%;
 }
+
 
 .landing h1 {
   text-align: center;
@@ -226,10 +226,16 @@ header .logo img{
   color:rgb(205,130,50);
   text-align: right;
   position: relative;
-  top: -37px;
+
 }
   
-
+@media screen and (min-width: 1200px){
+  body{
+    display: block;
+    margin: 0 auto;
+    max-width: 1920px;
+  }
+}
 
 
 /*--------------------------------------------------------------
@@ -369,9 +375,20 @@ header .logo img{
   font-weight: 500;
 }
 
-
-
-
+/*----------------------------------------------------------------
+                   Zeichenkonvertierung 
+-----------------------------------------------------------------*/
+.zh-convert {
+  text-align: right;
+  padding-top: 30px;
+  font-family: "futura-pt", helvetica, verdana,Tahoma, sans-serif;
+  font-weight: 900;
+  color: rgb(210, 105, 91);
+}
+.zh-convert:hover {
+  cursor: pointer;
+  text-decoration:underline;
+}
 
 
 /* SEITEN STYLES: */
@@ -384,9 +401,9 @@ header .logo img{
 -----------------------------------------------------------------*/
 
 .inhalt-sozialversicherung p,.inhalt-sozialversicherung ul,.inhalt-sozialversicherung li{ 
-    font-family:  "skolar-latin",georgia,times,"times new roman",serif;
+  font-family:  "skolar-latin",georgia,times,"times new roman",serif;
   font-weight: 400;
-   list-style-type:lower-roman;
+  list-style-type:lower-roman;
 }
 .inhalt-sozialversicherung ul {
   padding-left : 60px;
@@ -491,6 +508,19 @@ header .logo img{
 } 
 }
 
-.inhalt-aerzte, .inhalt-vertrag, .inhalt-sozialversicherung,.inhalt-IngenieurItler,.inhalt-kurzeEinfuehrung,.inhalt-pflegekraefte, .inhalt-deKontakt, .inhalt-hanKontakt,.inhalt-BildungssystemDual,.inhalt-jederLerntDeutsch, .inhalt-Bildungssystem, .inhalt-impressum, .inhalt-credits img{
-  width: 700px;
+
+/*----------------------------------------------------------------
+                   SEITEN: Credits
+-----------------------------------------------------------------*/
+.inhalt-credits p{
+  padding:0;
+  margin: 0;
 }
+
+.zeichenKonvertierung_js a{
+  font-size: 15px;
+  display:block;
+  padding-top: 5px;
+}
+
+

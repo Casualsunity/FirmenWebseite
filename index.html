@@ -44,6 +44,8 @@
         <div class="landing">
           
           <a href="index.html"><img src="images/pics/tafelRakette.jpg" alt="landing-pic"></a>
+          <div id="zh-convert" class="zh-convert" data-zh="tw">简体</div><script>var zhconvert = document.getElementById("zh-convert");zhconvert.onclick = function(){if (zhconvert.dataset.zh == "tw"){TongWen.trans2Simp(document);zhconvert.dataset.zh = "cn";setTimeout(function() {zhconvert.textContent = "繁體";}, 500);}else{TongWen.trans2Trad(document);zhconvert.dataset.zh = "tw";setTimeout(function() {zhconvert.textContent = "简体";}, 500);}}</script>
+    
             <h1>菲斯坦公司</h1>
             <h3>通往德國的橋樑</h3>
         </div>
@@ -131,6 +133,12 @@
         <p>Alle Rechte vorbehalten</p>
       </div>
     </footer>
+    <script language="JavaScript" src="../skripte/tongwen_core.js"></script>
+    <script language="JavaScript" src="../skripte/tongwen_table_s2t.js"></script>
+    <script language="JavaScript" src="../skripte//tongwen_table_t2s.js"></script>
+    <script language="JavaScript" src="../skripte/tongwen_table_ps2t.js"></script>
+    <script language="JavaScript" src="../skripte//tongwen_table_pt2s.js"></script>
+    <script>var zhconvert = document.getElementById("zh-convert");zhconvert.onlick = function () {if (zhconvert.dataset.zh == "tw") {TongWen.trans2Simp(document);zhconvert.dataset.zh ="cn";setTimeout(function() {zhconvert.textContent ="繁";},500);}else {TongWen.trans2Trad(document);zhconvert.dataset.zh = "tw";setTimeout(function() {zhconvert.textContent ="简";},500);}}</script>
   
 </body>
 </html>

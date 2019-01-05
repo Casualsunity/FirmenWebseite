@@ -42,6 +42,7 @@
         
         <div class="inhalt-BildungssystemDual">
           <img src="../images/pics/bib_stuttgart.jpeg" alt="sozialversicherungsausweis">
+          <div id="zh-convert" class="zh-convert" data-zh="tw">简体</div><script>var zhconvert = document.getElementById("zh-convert");zhconvert.onclick = function(){if (zhconvert.dataset.zh == "tw"){TongWen.trans2Simp(document);zhconvert.dataset.zh = "cn";setTimeout(function() {zhconvert.textContent = "繁體";}, 500);}else{TongWen.trans2Trad(document);zhconvert.dataset.zh = "tw";setTimeout(function() {zhconvert.textContent = "简体";}, 500);}}</script>
           <h1>德國教育體系</h1>
           <p>德國現有八百四十萬學生以及三萬三千五百間公立學校。德國的教育系統並不是由德國政府統一安排的，而是每個聯邦州政府的文化部所安排。文化部的工作是安排教師，安排課程進度等等。這樣一來雖然很難做一致的標準，但是還有一個全德國統一的標準，就是小學的4年制制度。</p>
           <p>4年後，學生可以選擇就讀8年制的高級中學或者6年制的文理中學。8年制的高級中學畢業後，學生們可以考入大學接受高等教育。而就讀6年制文理中學的學生們在6年畢業後，可接受職業培訓。值得一提的是，德國的職業培訓70%的時間是在工作崗位上實踐，只有30%的時間是在學校裡學習理論的。這一職業培訓的特色也引起了全球多國的興趣，西班牙，意大利等已經引進了德國理論實踐同時培訓的職業培訓教育方式。而且中國教育部部長陳寶生先生在2018年7月11號與德國聯邦教育部和研究部長卡利切克簽署了: <a href="http://www.edu.cn/edu/jiao_yu_bu/jiang/201807/t20180711_1616363.shtml">關於深化高等教育和職業教育領域合作的聯合意向性聲明。</a></p>
@@ -85,6 +86,11 @@
         <p>Alle Rechte vorbehalten</p>
       </div>
     </footer>
-    
+    <script language="JavaScript" src="../skripte/tongwen_core.js"></script>
+    <script language="JavaScript" src="../skripte/tongwen_table_s2t.js"></script>
+    <script language="JavaScript" src="../skripte//tongwen_table_t2s.js"></script>
+    <script language="JavaScript" src="../skripte/tongwen_table_ps2t.js"></script>
+    <script language="JavaScript" src="../skripte//tongwen_table_pt2s.js"></script>
+    <script>var zhconvert = document.getElementById("zh-convert");zhconvert.onlick = function () {if (zhconvert.dataset.zh == "tw") {TongWen.trans2Simp(document);zhconvert.dataset.zh ="cn";setTimeout(function() {zhconvert.textContent ="繁";},500);}else {TongWen.trans2Trad(document);zhconvert.dataset.zh = "tw";setTimeout(function() {zhconvert.textContent ="简";},500);}}</script>
 </body>
 </html>

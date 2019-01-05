@@ -43,6 +43,7 @@
         
         <div class="inhalt-pflegekraefte">
           <img src="../images/pics/krankenschwester.png" alt="Pflegekräfte">
+          <div id="zh-convert" class="zh-convert" data-zh="tw">简体</div><script>var zhconvert = document.getElementById("zh-convert");zhconvert.onclick = function(){if (zhconvert.dataset.zh == "tw"){TongWen.trans2Simp(document);zhconvert.dataset.zh = "cn";setTimeout(function() {zhconvert.textContent = "繁體";}, 500);}else{TongWen.trans2Trad(document);zhconvert.dataset.zh = "tw";setTimeout(function() {zhconvert.textContent = "简体";}, 500);}}</script>
           <h1>護理人員</h1>
           <p>德國的人口結構變化日趨明顯。老齡化的德國社會急需在醫院和門診工作的護理人員。無論是對於護理企業，醫院還是老人院或者其他形式的護理設施而言，贏得并且保留專業護理人才越來越艱難。根據最新德國聯邦就業中介局緊缺人才分析表明，每100個老人院的護理崗位僅有29人報名。由此看來能否保障醫療護理人員的工作成爲挑戰的重點。</p>
           <h2>護理工作的範圍</h2>
@@ -105,6 +106,12 @@
         <p>Alle Rechte vorbehalten</p>
       </div>
     </footer>
+    <script language="JavaScript" src="../skripte/tongwen_core.js"></script>
+    <script language="JavaScript" src="../skripte/tongwen_table_s2t.js"></script>
+    <script language="JavaScript" src="../skripte//tongwen_table_t2s.js"></script>
+    <script language="JavaScript" src="../skripte/tongwen_table_ps2t.js"></script>
+    <script language="JavaScript" src="../skripte//tongwen_table_pt2s.js"></script>
+    <script>var zhconvert = document.getElementById("zh-convert");zhconvert.onlick = function () {if (zhconvert.dataset.zh == "tw") {TongWen.trans2Simp(document);zhconvert.dataset.zh ="cn";setTimeout(function() {zhconvert.textContent ="繁";},500);}else {TongWen.trans2Trad(document);zhconvert.dataset.zh = "tw";setTimeout(function() {zhconvert.textContent ="简";},500);}}</script>
     
 </body>
 </html>

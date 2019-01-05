@@ -42,6 +42,7 @@
         </header>
         
         <div class="inhalt-Bildungssystem">
+          <div id="zh-convert" class="zh-convert" data-zh="tw">简体</div><script>var zhconvert = document.getElementById("zh-convert");zhconvert.onclick = function(){if (zhconvert.dataset.zh == "tw"){TongWen.trans2Simp(document);zhconvert.dataset.zh = "cn";setTimeout(function() {zhconvert.textContent = "繁體";}, 500);}else{TongWen.trans2Trad(document);zhconvert.dataset.zh = "tw";setTimeout(function() {zhconvert.textContent = "简体";}, 500);}}</script>
           <h1>德國留學簡介</h1>
           <h2>多樣化的教學體制</h2>
           <p>德國教育世界領先。2015/2016年度有34000所學府招收新生。其中有一半即15500所學府是小學。普通中學3000所，實體中學2300所以及3100文理中學。經過基礎教育後，學生可以選擇職業教育或者接受426所高等學府的教育。其中有4分之1是古典綜合大學，大約佔一半比例的專科大學。特別是德國大學專業類繁多，據2017年統計德國學士學位專業有7812種，碩士專業7618種，國家或教會文憑1165種。</p>
@@ -138,6 +139,11 @@
         <p>Alle Rechte vorbehalten</p>
       </div>
     </footer>
-    
+    <script language="JavaScript" src="../skripte/tongwen_core.js"></script>
+    <script language="JavaScript" src="../skripte/tongwen_table_s2t.js"></script>
+    <script language="JavaScript" src="../skripte//tongwen_table_t2s.js"></script>
+    <script language="JavaScript" src="../skripte/tongwen_table_ps2t.js"></script>
+    <script language="JavaScript" src="../skripte//tongwen_table_pt2s.js"></script>
+    <script>var zhconvert = document.getElementById("zh-convert");zhconvert.onlick = function () {if (zhconvert.dataset.zh == "tw") {TongWen.trans2Simp(document);zhconvert.dataset.zh ="cn";setTimeout(function() {zhconvert.textContent ="繁";},500);}else {TongWen.trans2Trad(document);zhconvert.dataset.zh = "tw";setTimeout(function() {zhconvert.textContent ="简";},500);}}</script>
 </body>
 </html>
