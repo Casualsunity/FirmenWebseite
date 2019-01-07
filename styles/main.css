@@ -491,27 +491,8 @@ header .logo img{
 .inhalt-hanKontakt h2{
   font-size: 1.2625em;
 }
-
-
 /*----------------------------------------------------------------
-                   SEITEN: ARTIKELN
------------------------------------------------------------------*/
-.inhalt-aerzte, .inhalt-vertrag, .inhalt-sozialversicherung,.inhalt-IngenieurItler,.inhalt-kurzeEinfuehrung,.inhalt-pflegekraefte, .inhalt-deKontakt, .inhalt-hanKontakt,.inhalt-BildungssystemDual,.inhalt-jederLerntDeutsch, .inhalt-Bildungssystem, .inhalt-impressum, .inhalt-credits {
-  max-width:700px;
-  margin: 0 auto;
-  padding:0;
-}
-@media screen and (min-width: 1200px){
-  .inhalt-aerzte, .inhalt-vertrag, .inhalt-sozialversicherung,.inhalt-IngenieurItler,.inhalt-kurzeEinfuehrung,.inhalt-pflegekraefte, .inhalt-deKontakt, .inhalt-hanKontakt,.inhalt-BildungssystemDual,.inhalt-jederLerntDeutsch, .inhalt-Bildungssystem, .inhalt-impressum, .inhalt-credits {
-  min-width:700px;
-  margin: 0 auto;
-  padding:0;
-} 
-}
-
-
-/*----------------------------------------------------------------
-                   SEITEN: Credits
+                   SEITE: Credits
 -----------------------------------------------------------------*/
 .inhalt-credits p{
   padding:0;
@@ -523,5 +504,31 @@ header .logo img{
   display:block;
   padding-top: 5px;
 }
+
+
+/*----------------------------------------------------------------
+                   SEITEN: ARTIKELN
+-----------------------------------------------------------------*/
+.inhalt-aerzte, .inhalt-vertrag, .inhalt-sozialversicherung,.inhalt-IngenieurItler,.inhalt-kurzeEinfuehrung,.inhalt-pflegekraefte, .inhalt-deKontakt, .inhalt-hanKontakt,.inhalt-BildungssystemDual,.inhalt-jederLerntDeutsch, .inhalt-Bildungssystem, .inhalt-impressum, .inhalt-credits,
+.inhalt-arbeitsvisum{
+  max-width:700px;
+  margin: 0 auto;
+  padding:0;
+}
+@media screen and (min-width: 1200px){
+  .inhalt-aerzte, .inhalt-vertrag, .inhalt-sozialversicherung,.inhalt-IngenieurItler,.inhalt-kurzeEinfuehrung,.inhalt-pflegekraefte, .inhalt-deKontakt, .inhalt-hanKontakt,.inhalt-BildungssystemDual,.inhalt-jederLerntDeutsch, .inhalt-Bildungssystem, .inhalt-impressum, .inhalt-credits ,.inhalt-arbeitsvisum{
+  min-width:700px;
+  margin: 0 auto;
+  padding:0;
+} 
+}
+/*----------------------------------------------------------------
+                   SEITE: Arbeitsvisum
+-----------------------------------------------------------------*/
+.inhalt-arbeitsvisum a {
+  color: rgb(210, 105, 91);
+}
+
+
 
 
