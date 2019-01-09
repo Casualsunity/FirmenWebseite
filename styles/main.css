@@ -487,6 +487,7 @@ header .logo img{
 }
 .inhalt-hanKontakt h1{
   color: rgb(205, 130, 50);
+  text-align: 
 }
 .inhalt-hanKontakt h2{
   font-size: 1.2625em;
@@ -530,5 +531,16 @@ header .logo img{
 }
 
 
-
+/*----------------------------------------------------------------
+                   IMG: WechatCode
+-----------------------------------------------------------------*/
+.wechat {
+  display: block;
+  max-width: 220px;
+  margin: 0;
+  padding: 0;
+}
+.wechat img{
+  padding: 8px 88px;
+}
 
