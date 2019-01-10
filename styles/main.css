@@ -512,7 +512,7 @@ header .logo img{
 -----------------------------------------------------------------*/
 .inhalt-aerzte, .inhalt-vertrag, .inhalt-sozialversicherung,.inhalt-IngenieurItler,.inhalt-kurzeEinfuehrung,.inhalt-pflegekraefte, .inhalt-deKontakt, .inhalt-hanKontakt,.inhalt-BildungssystemDual,.inhalt-jederLerntDeutsch, .inhalt-Bildungssystem, .inhalt-impressum, .inhalt-credits,
 .inhalt-arbeitsvisum,.inhalt-ne{
-  max-width:700px;
+  max-width:800px;
   margin: 0 auto;
   padding:0;
 }
