@@ -511,14 +511,14 @@ header .logo img{
                    SEITEN: ARTIKELN
 -----------------------------------------------------------------*/
 .inhalt-aerzte, .inhalt-vertrag, .inhalt-sozialversicherung,.inhalt-IngenieurItler,.inhalt-kurzeEinfuehrung,.inhalt-pflegekraefte, .inhalt-deKontakt, .inhalt-hanKontakt,.inhalt-BildungssystemDual,.inhalt-jederLerntDeutsch, .inhalt-Bildungssystem, .inhalt-impressum, .inhalt-credits,
-.inhalt-arbeitsvisum{
+.inhalt-arbeitsvisum,.inhalt-ne{
   max-width:700px;
   margin: 0 auto;
   padding:0;
 }
 @media screen and (min-width: 1200px){
-  .inhalt-aerzte, .inhalt-vertrag, .inhalt-sozialversicherung,.inhalt-IngenieurItler,.inhalt-kurzeEinfuehrung,.inhalt-pflegekraefte, .inhalt-deKontakt, .inhalt-hanKontakt,.inhalt-BildungssystemDual,.inhalt-jederLerntDeutsch, .inhalt-Bildungssystem, .inhalt-impressum, .inhalt-credits ,.inhalt-arbeitsvisum{
-  min-width:700px;
+  .inhalt-aerzte, .inhalt-vertrag, .inhalt-sozialversicherung,.inhalt-IngenieurItler,.inhalt-kurzeEinfuehrung,.inhalt-pflegekraefte, .inhalt-deKontakt, .inhalt-hanKontakt,.inhalt-BildungssystemDual,.inhalt-jederLerntDeutsch, .inhalt-Bildungssystem, .inhalt-impressum, .inhalt-credits ,.inhalt-arbeitsvisum,.inhalt-ne{
+  min-width:800px;
   margin: 0 auto;
   padding:0;
 } 
@@ -530,6 +530,18 @@ header .logo img{
   color: rgb(210, 105, 91);
 }
 
+/*----------------------------------------------------------------
+                   SEITEN: ARTIKELN
+-----------------------------------------------------------------*/
+
+.inhalt-ne ul li{
+    font-family: "skolar-latin", georgia,times,"times new roman",serif;
+    font-weight: 400;
+    font-size: 1.0em;
+}
+.inhalt-ne a {
+  color: rgb(210, 105, 91);
+}
 
 /*----------------------------------------------------------------
                    IMG: WechatCode
