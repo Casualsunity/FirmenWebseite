@@ -67,7 +67,7 @@ a{
   a:visited {
       color: rgb(0, 0, 0);
     }
-  a:hover {  
+  a:hover {
       text-decoration: underline;
     }
   a:active {
@@ -541,6 +541,10 @@ header .logo img{
 }
 .inhalt-niederl a{
   color: rgb(210, 105, 91);
+}
+.inhalt-niederl a:hover{
+  text-decoration: none;
+  color: rgb(221, 156, 148);
 }
 
 /*----------------------------------------------------------------
