@@ -367,7 +367,7 @@ header .logo img{
 }
 
 .footer-logo {
-  max-width: 300px;
+  max-width: 400px;
   padding-bottom: 8px;
   margin:0 auto;
 }
@@ -380,8 +380,9 @@ header .logo img{
   color: rgb(205, 130, 50);
   text-align: center;
   margin: 0;
-  font-size: .6em;
+  font-size: 0.8em;
   font-weight: 500;
+
 }
 
 /*----------------------------------------------------------------
