@@ -37,11 +37,13 @@ body {
 }
 h1,h2,h3,h4,h5,h6{
   font-family:   "futura-pt", helvetica, verdana,Tahoma, sans-serif;
-  font-weight:  400;
+  font-weight:  500;
 }
 ul,li{
-  font-family:   "futura-pt", helvetica, verdana,Tahoma, sans-serif;
+  font-family:   "skolar-latin",georgia,times,"times new roman",serif;
+  font-weight:  400;
 }
+
 
 .main-container {
   background: rgb(182, 219, 173);/*IE8*/
@@ -79,16 +81,16 @@ a{
 
 
 p{ 
-  font-size:    1.2em;
+  font-size:    1em;
   line-height:  1.4211em;
   margin-top:   1.4211em;
-  font-weight: 300;
+  font-weight: 400;
 }
 ul{
   font-size: 1em;
   line-height:  1.4211em;
   margin-top:   1.4211em;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 h1 {
@@ -135,10 +137,14 @@ header .logo img{
                            MAIN NAVIGATION STYLES
 ---------------------------------------------------------------------*/
 
+
+
 .main-navigation ul {
+  
   padding: 0;
 }
 .main-navigation li {
+  font-family: "futura-pt", helvetica, verdana,Tahoma, sans-serif;
   list-style: none;
   text-align: center;
   margin: 10px 10px;
@@ -150,7 +156,7 @@ header .logo img{
     font-weight: 500;
   }
 .main-navigation a {
-  max-width: 300px;
+  max-width: 288px;
   display: block;
   margin: 0 auto;
   padding: 15px 10px;
@@ -309,6 +315,7 @@ header .logo img{
                           FOOTER NAVIGATION
 ---------------------------------------------------------------------*/
 .footer-navigation {
+  
   min-height: 140px; 
   width: 200px;
   margin: 0 auto;
@@ -320,8 +327,9 @@ header .logo img{
   margin:0;
 }
 .footer-navigation li {
+  font-family: "futura-pt", helvetica, verdana,Tahoma, sans-serif;
   margin-bottom: 10px;
-  font-weight: 400;
+  font-weight: 500;
   text-align: center;
 }
 .footer-navigation a {
