@@ -432,13 +432,39 @@ header .logo img{
 }
 
 /*----------------------------------------------------------------
+                   SEITE: Vertrag
+-----------------------------------------------------------------*/
+.inhalt-vertrag img {
+  display: block;
+  min-width: 500px;
+  margin: auto;
+}
+/*----------------------------------------------------------------
+                   SEITE: ingenieurIT
+-----------------------------------------------------------------*/
+.inhalt-IngenieurItler {
+  display: block;
+  min-width: 500px;
+  margin: auto;
+}
+
+
+
+
+/*----------------------------------------------------------------
                    SEITE: JederLerntDeutsch
 -----------------------------------------------------------------*/
+
+
+.inhalt-jederLerntDeutsch img{
+  display: block;
+  margin: 0 auto;
+}
 
 .inhalt-jederLerntDeutsch table{
   font-family:  "futura-pt", helvetica, verdana,Tahoma, sans-serif;
   font-weight: 400;
-  font-size: 0.8em;
+  font-size: 0.9em;
   border-spacing: 1rem;
   border-collapse: collapse;
   border: solid 1px rgb(15,15,15);
@@ -453,6 +479,7 @@ header .logo img{
 .inhalt-jederLerntDeutsch th {
   font-weight: 600;
 }
+
 
 /*----------------------------------------------------------------
                    SEITE: KONTAKT DE
@@ -539,6 +566,8 @@ header .logo img{
   color: rgb(210, 105, 91);
 }
 
+
+
 /*----------------------------------------------------------------
                    SEITEN: NE
 -----------------------------------------------------------------*/
@@ -561,7 +590,7 @@ header .logo img{
 -----------------------------------------------------------------*/
 .wechat {
   display: block;
-  max-width: 260px;
+  max-width: 177px;
   margin: 0;
   padding: 0;
 }
