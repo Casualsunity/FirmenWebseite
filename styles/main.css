@@ -54,7 +54,7 @@ ul,li{
 
 .main-container img {
   max-width: 100%;
-  padding-top: 20px;
+  padding-top: 50px;
  
   
 }
@@ -130,6 +130,7 @@ h5 {
   margin: 0 auto;
   width: 25%;
 }
+header .logo
 header .logo img{
   max-width: 246px;
 }
@@ -459,6 +460,7 @@ header .logo img{
 .inhalt-jederLerntDeutsch img{
   display: block;
   margin: 0 auto;
+  min-width: 700px;
 }
 
 .inhalt-jederLerntDeutsch table{
@@ -529,6 +531,18 @@ header .logo img{
   font-size: 1.2625em;
 }
 /*----------------------------------------------------------------
+                   IMG: WechatCode
+-----------------------------------------------------------------*/
+.wechat {
+  display: block;
+  max-width: 177px;
+  margin: 0;
+  padding: 0;
+}
+.wechat img{
+  padding: 8px 88px;
+}
+/*----------------------------------------------------------------
                    SEITE: Credits
 -----------------------------------------------------------------*/
 .inhalt-credits p{
@@ -552,6 +566,7 @@ header .logo img{
   margin: 0 auto;
   padding:0;
 }
+
 @media screen and (min-width: 1200px){
   .inhalt-aerzte, .inhalt-vertrag, .inhalt-sozialversicherung,.inhalt-IngenieurItler,.inhalt-kurzeEinfuehrung,.inhalt-pflegekraefte, .inhalt-deKontakt, .inhalt-hanKontakt,.inhalt-BildungssystemDual,.inhalt-jederLerntDeutsch, .inhalt-Bildungssystem, .inhalt-impressum, .inhalt-credits ,.inhalt-arbeitsvisum,.inhalt-ne{
   min-width:800px;
@@ -560,12 +575,16 @@ header .logo img{
 } 
 }
 /*----------------------------------------------------------------
-                   SEITE: Arbeitsvisum
+                   SEITE: arbeitsvisum
 -----------------------------------------------------------------*/
+
 .inhalt-arbeitsvisum a {
   color: rgb(210, 105, 91);
 }
-
+  .inhalt-arbeitsvisum a:hover {
+    text-decoration: none;
+    color: rgb(227, 45, 23);
+  }
 
 
 /*----------------------------------------------------------------
@@ -582,19 +601,33 @@ header .logo img{
 }
 .inhalt-niederl a:hover{
   text-decoration: none;
-  color: rgb(221, 156, 148);
+  color: rgb(227, 45, 23);
+}
+
+
+
+/*----------------------------------------------------------------
+                   SEITEN: BildungssystemDual
+-----------------------------------------------------------------*/
+.inhalt-BildungssystemDual a {
+  color: rgb(210, 105, 91);
+}
+.inhalt-BildungssystemDual a:hover{
+  text-decoration: none;
+  color: rgb(227, 45, 23);
 }
 
 /*----------------------------------------------------------------
-                   IMG: WechatCode
+                   SEITEN: Deutsches Bildungssystem
 -----------------------------------------------------------------*/
-.wechat {
+.inhalt-Bildungssystem a {
+  color: rgb(210, 105, 91);
+}
+.inhalt-Bildungssystem a:hover{
+  text-decoration: none;
+  color: rgb(227, 45, 23);
+}
+.derWegZumStudium img{
   display: block;
-  max-width: 177px;
-  margin: 0;
-  padding: 0;
+  min-width: 700px;
 }
-.wechat img{
-  padding: 8px 88px;
-}
-
