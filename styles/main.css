@@ -535,7 +535,7 @@ header .logo img{
 -----------------------------------------------------------------*/
 .wechat {
   display: block;
-  max-width: 177px;
+  max-width: 78px;
   margin: 0;
   padding: 0;
 }
@@ -627,7 +627,7 @@ header .logo img{
   text-decoration: none;
   color: rgb(227, 45, 23);
 }
-.derWegZumStudium img{
+.derWegZumStudium{
   display: block;
-  min-width: 700px;
+  padding:50px;
 }
