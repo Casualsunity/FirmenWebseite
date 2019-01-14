@@ -462,7 +462,7 @@ header .logo img{
 .inhalt-jederLerntDeutsch img{
   display: block;
   margin: 0 auto;
-  min-width: 780px;
+  min-width: 500px;
   padding-top:50px;
 }
 .inhalt-jederLerntDeutsch h1{
