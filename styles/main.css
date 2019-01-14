@@ -614,3 +614,17 @@ header .logo img{
   display: block;
   padding:50px;
 }
+/*----------------------------------------------------------------
+                   SEITEN: Deutsches Bildungssystem
+-----------------------------------------------------------------*/
+.inhalt-pflegekraefte a{
+  color: rgb(210, 105, 91);
+}
+
+  .inhalt-pflegekraefte a:hover{
+    text-decoration: none;
+  color: rgb(227, 45, 23);
+  }
+
+
+
