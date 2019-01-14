@@ -600,6 +600,10 @@ header .logo img{
     font-weight: 400;
     font-size: 1.0em;
 }
+
+.inhalt-niederl .unterUl {
+  margin-top: 0;
+}
 .inhalt-niederl a{
   color: rgb(210, 105, 91);
 }
