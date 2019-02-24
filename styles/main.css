@@ -202,10 +202,14 @@ h5 {
 /*---------------------------------------------------------------------
                               LOGO STYLES
 ---------------------------------------------------------------------*/
-
-header .logo img{
+.logo img {
   display: block;
   margin: 0 auto;
+  width: 88px;
+}
+
+
+header .logo img{
   max-width: 88px;
   padding-top:0;
 }
