@@ -53,8 +53,10 @@ ul,li{
 }
 
 .main-container img {
+  display:block;
   max-width: 100%;
   padding-top: 50px;
+  margin: 0 auto;
  
   
 }
@@ -205,7 +207,7 @@ h5 {
 .logo img {
   display: block;
   margin: 0 auto;
-  width: 88px;
+  max-width: 88px;
 }
 
 
@@ -443,7 +445,10 @@ header .logo img{
                    SEITE: JederLerntDeutsch
 -----------------------------------------------------------------*/
 
-
+.inhalt-jederLerntDeutsch img {
+  display:block;
+  padding: 0 auto;
+}
 .inhalt-jederLerntDeutsch table{
   font-family:  "futura-pt", helvetica, verdana,Tahoma, sans-serif;
   font-weight: 400;
