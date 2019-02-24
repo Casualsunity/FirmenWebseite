@@ -203,8 +203,9 @@ h5 {
                               LOGO STYLES
 ---------------------------------------------------------------------*/
 
-
 header .logo img{
+  display: block;
+  margin: 0 auto;
   max-width: 88px;
   padding-top:0;
 }
