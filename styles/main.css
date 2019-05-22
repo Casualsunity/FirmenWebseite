@@ -263,8 +263,8 @@ header .logo img{
   letter-spacing: 5px;
 }
 
-.kategorie-fachkraefte :hover,.kategorie-weiterbildung:hover {
-  color:rgb(210, 105, 91);
+.kategorie-fachkraefte:hover,.kategorie-weiterbildung:hover {
+  color: rgb(205,130,80);
   
 }
 
