@@ -139,8 +139,8 @@ h5 {
   font-family: "futura-pt", helvetica, verdana,Tahoma, sans-serif;
   list-style: none;
   text-align: center;
-  margin: 8px 8px;
-  font-weight: 300;
+  margin: 10px 10px;
+  font-weight: 500;
 }
 .main-navigation li:nth-child(5){
     text-transform: uppercase;
