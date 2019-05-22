@@ -254,9 +254,9 @@ header .logo img{
                       LEITARTIKELN STYLES
 ---------------------------------------------------------------*/
 
-.kategorie-fachkraefte h5, .kategorie-weiterbildung h5{
+.kategorie-fachkraefte h3, .kategorie-weiterbildung h3{
   
-  color: rgb(210, 105, 91);
+  color: rgb(205,130,50);
   text-decoration: none;
   position: relative;
   top: 20px;
