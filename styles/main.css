@@ -256,7 +256,7 @@ header .logo img{
 
 .kategorie-fachkraefte h3, .kategorie-weiterbildung h3{
   
-  color: rgb(210, 105, 91);
+  color: rgb(205, 130, 50);
   text-decoration: none;
   position: relative;
   top: 20px;
@@ -264,7 +264,7 @@ header .logo img{
 }
 
 .kategorie-fachkraefte :hover,.kategorie-weiterbildung :hover {
-  color:rgb(210, 105, 91);
+  color:rgb(205, 130, 50);
   
 }
 
@@ -272,6 +272,7 @@ header .logo img{
   padding: 1px 1px;
 }
 .artikeln h4 {
+  color: rgb(205, 130, 50);
   text-align: center;
 }
 .artikeln img {
