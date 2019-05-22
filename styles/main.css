@@ -235,7 +235,7 @@ header .logo img{
   color:rgb(205,130,50);
 }
 .landing h3 {
-  color:rgb(210, 105, 91);
+  color:rgb(205,130,50);
   text-align: right;
   position: relative;
 
@@ -256,7 +256,7 @@ header .logo img{
 
 .kategorie-fachkraefte h3, .kategorie-weiterbildung h3{
   
-  color: rgb(205,130,50);
+  color: rgb(210, 105, 91);
   text-decoration: none;
   position: relative;
   top: 20px;
